@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    container_name: backend1232
+    container_name: backend1239
     build: ./
     env_file:
       - ./env_ports.env
