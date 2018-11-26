@@ -94,7 +94,7 @@ app.post('/deploy', (req, res) => {
         map(x => console.log('usname: ',x)),
         pluck('username'),
         map(x => console.log('usname2: ',x)),
-        tap(userName => console.log('user entered is ********************************', userName))
+        tap(userName => console.log('user entered is *************************', userName))
     );
 
     const url = 
