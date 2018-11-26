@@ -62,6 +62,7 @@ app.use('/auth', authRouter);
 
 const server = app.listen(port, () => {
   console.log(`listening on port 5000 for app${config.get('rxjs.app')}`);
+  console.log("Hello");
 });
 
 const io = sockets(server);
