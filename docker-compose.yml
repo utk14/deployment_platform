@@ -1,7 +1,11 @@
 version: '3'
 services:
   app:
+<<<<<<< HEAD
     container_name: backend1235
+=======
+    container_name: backend_frontend1
+>>>>>>> e5f4ea5f1d54b55c534557159c458e633b5eef56
     build: ./
     env_file:
       - ./env_ports.env
@@ -14,5 +18,9 @@ services:
   
   
   mongo_db:
+<<<<<<< HEAD
     container_name: database1257
+=======
+    container_name: database19123
+>>>>>>> e5f4ea5f1d54b55c534557159c458e633b5eef56
     image: mongo

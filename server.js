@@ -62,6 +62,7 @@ app.use('/auth', authRouter);
 
 const server = app.listen(port, () => {
   console.log(`listening on port 5000 for app${config.get('rxjs.app')}`);
+  
 });
 
 const io = sockets(server);
@@ -181,7 +182,8 @@ app.post('/deploy', (req, res) => {
 });
 /////////////////////////////////////////////////////////////////
 app.post('/github_push', (req,res) => {
-  console.log('inside github post...........................................................................')
+  console.log('inside github post...........................................................................');
+  console.log('whats next??????????????????????????????????????????')
 })
 
 
