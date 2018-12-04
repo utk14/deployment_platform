@@ -28,7 +28,7 @@ const passportSetup = require('./passport');
 const authRouter = require('./routes/authentication');
 const appModel = require('./db/models/apps');
 //const hook = require('./webhook');
-console.log('hello');
+console.log('hello12');
 
 app.use(express.static(path.join(__dirname, './client/build')));
 app.use(express.static(path.join(__dirname, './logs')));
