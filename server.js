@@ -29,9 +29,6 @@ const authRouter = require('./routes/authentication');
 const appModel = require('./db/models/apps');
 //const hook = require('./webhook');
 
-console.log('hello');
-
-
 app.use(express.static(path.join(__dirname, './client/build')));
 app.use(express.static(path.join(__dirname, './logs')));
 
