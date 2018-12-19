@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './styles/images/gitlab.png';
+import logo from './styles/images/logo1.png';
 import './styles/App.css';
 
 
@@ -28,7 +28,7 @@ class App extends Component {
           {/* <Button variant="outlined" className={App-link} href={`/auth`}>
           Connect using Gitlab
       </Button> */}
-          <a className="App-link" id="loginButton" href={`/auth`}> Connect using Gitlab </a>
+          <a className="App-link" id="loginButton" href={`/auth`}> Click to explore more </a>
           {/* <button onClick={this.test}> test </button> */}
         </header>
       </div>
