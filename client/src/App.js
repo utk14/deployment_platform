@@ -24,11 +24,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
           {/* <Button variant="outlined" className={App-link} href={`/auth`}>
           Connect using Gitlab
       </Button> */}
-          <a className="App-link" id="loginButton" href={`/auth`}> Click to explore more </a>
+          <a className="App-link" id="loginButton" href={`/auth`}> 
+          <img src={logo} className="App-logo" alt="logo" />
+           </a>
           {/* <button onClick={this.test}> test </button> */}
         </header>
       </div>
